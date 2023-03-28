@@ -1,0 +1,15 @@
+.loginCont{
+    margin: 10% 20% 0% 30%;
+    
+    min-height: 200px;
+}
+
+.Login{
+    background-color: rgb(163, 161, 158);
+    min-width: none;
+    max-width: 500px;
+    padding: 5%;
+    
+    border: dotted;
+}
+
