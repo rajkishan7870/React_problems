@@ -1,104 +1,48 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-}
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;    
- 
-
-  min-height: 100vh;
-  width: 100%;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  min-height: 400px;
-  width: 400px;
-  background-color: white;
-  border-radius: 15px;
-  border: 2px solid;
-
-  padding: 10px;
-  position: relative;
-}
-.heading-txt{
-  color:white;
-
-  font-size: 30px;
-  font-weight: bold;
-  margin: 10px;
-  text-align: center;  
-  text-transform: uppercase;
-}
-.question{
-  margin:8px;
- 
-  border-radius: 5px;
-  padding:5px;
-  font-size: large;
-  min-width: 100%;
-  min-height: 90px;
+.App{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#question-number{
-  margin-right: 5px;
-}
-.option-container{
+.horizontalScroller{
   display: flex;
   flex-direction: column;
-  margin:6px 4px;    
-  width: 100%;
-  padding: 10px;
+  align-items: center;
 }
 
-.option-btn{
-  
-    padding: 5px;
-    border-radius: 3px;
-    border: none;
-    outline: none;
- 
-    margin: 5px;
-    min-height: 30px;
+.task1 {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  overflow-x: scroll;
+  width: 60%;
+  margin: 1rem;
+}
+.task1::-webkit-scrollbar{
+  display: none;
+}
 
+.heading{
+  width: 60% ;
+  margin-left:1rem ;
 }
-.checked{
-  background-color: rgb(179, 83, 179);
-  color:white;
-  
+.heading h1{
+  font-size: 18px;
+  margin: 2px 0;
 }
-.option-btn:hover{
-  background-color: rgb(212, 118, 212);
-  color:white;
+.heading p{
+  font-size: 14px;
+  margin: 0;
 }
-#next-button{
-  padding:10px;
-  border:none;
-  
-  background-color: #276272;
-  color:white;
-  border-radius: 5px;
-  
-  font-size: larger;
-  font-weight: bold;
-  
-  width:100px;
-  position: absolute;
-  bottom: 15px;
+.task1 li{
+  list-style: none;
+  margin: 1rem;
 }
-#next-button:active{
-  box-shadow:none;    
+.board-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.show-score{
-  position: absolute;
-  top:30%;
-  font-size: 40px;
-  text-align: center;  
+
+.board-container {
+  margin: 20px;
 }
