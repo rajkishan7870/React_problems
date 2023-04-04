@@ -1,0 +1,21 @@
+.parentCont{
+    border: solid;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 10% 20% 0% 35%;
+    background-color: rgb(211, 227, 221);
+}
+
+.inputData{
+    width: 250px;
+    margin-left: 20%;
+}
+
+.btn1{
+    margin: 2% 40%;
+}
+
+.btn2{
+    margin: 2% 30%;
+}

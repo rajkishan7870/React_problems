@@ -1,0 +1,17 @@
+.parentCont{
+    border: solid;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 35%;
+    background-color: rgb(212, 228, 222);
+}
+
+.content{
+    margin: 2% 20%;
+}
+
+.btn{
+    margin: 2% 20%;
+}
