@@ -1,8 +1,8 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/home";
-import Task from "./components/task";
-import Color from "./components/color";
+import Table from "./components/Table/table";
+import Event from "./components/Event/event";
+import Greetings from "./components/Greetings/greetings";
+
 
 
 function App() {
@@ -10,14 +10,12 @@ function App() {
   return (
 
     <div className='App'>
-      {/* <Color/> */}
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/task' element={<Task />} />
-        </Routes>
 
-      </BrowserRouter>
+      {/* <Table/> */}
+
+      {/* <Event/> */}
+
+      <Greetings/>
 
     </div>
 
