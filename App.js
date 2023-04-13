@@ -1,6 +1,5 @@
 import React from "react";
-
-import Form from "./components/form";
+import Context from "./components/context";
 
 
 
@@ -11,7 +10,7 @@ function App() {
 
     <div className='App'>
       
-        <Form/>
+        <Context/>
 
     </div>
 

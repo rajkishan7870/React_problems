@@ -1,0 +1,40 @@
+
+
+.list::-webkit-scrollbar {
+    display: none;
+  }
+.list{
+    border: solid;
+    margin: 2% 5%;
+    overflow: scroll;
+}
+
+
+.Details{
+    border : solid;
+    width: 30%;
+    margin: 2% 5% 2% 0%;
+    padding: 1% 1% 0% 1%;
+}
+
+.screenCont{
+    border: solid;
+    width: 70%;
+    margin: 2% 15%;
+    display: flex;
+    background-color: rgb(225, 217, 206);
+    max-height: 650px;
+}
+
+.bttn{
+    cursor: pointer;
+}
+.heading{
+    padding-left: 10%;
+}
+
+table, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
