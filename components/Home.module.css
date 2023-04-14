@@ -1,0 +1,13 @@
+.parentCont{
+    border: 3px solid grey;
+    margin: 2% 25%;
+    width: 50%;
+    height: 500px;
+    background-color: rgb(203, 210, 216);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
