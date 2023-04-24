@@ -1,26 +1,19 @@
 import React from "react";
-import {Routes, Route} from 'react-router-dom'
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-
-
+import { Provider } from "react-redux";
+import { store } from "./stores";
+import Blog from "./components/Blog";
 
 
 function App() {
 
   return (
+    <Provider store={store}>
 
-    <div className='App'>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/Contact" element={<Contact/>}/>
-      </Routes>
-        
-
-    </div>
-
+      <div className='App'>
+        <Blog/>
+      
+      </div>
+    </Provider>
   );
 
 }
