@@ -1,7 +1,7 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { store } from "./stores";
-import Blog from "./components/Blog";
+import { store } from "./stores/store";
+import Todo from "./components/todo";
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <Provider store={store}>
 
       <div className='App'>
-        <Blog/>
+        <Todo/>
       
       </div>
     </Provider>
